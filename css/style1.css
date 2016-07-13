@@ -1,0 +1,11 @@
+.demo1{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+    border-radius:50% ;
+    background:url("../images/IMG_1284.JPG") center;
+}
