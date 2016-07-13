@@ -1,34 +1,225 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>ly999.top</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <style type="text/css">
-    	.demo1{
-    		width:100px;
-    		height:100px;
-    		position:absolute;
-    		left:50%;
-    		top:50%;
-    		margin-left:-50px;
-    		margin-top:-50px;
-    		background-color:red;
-    		border-radius:50% ;
-    	}
-    </style>
-  </head>
- <body>
- 	<div class="demo1">
- 		
- 	</div>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Domanistudios</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id="content1">
+    <img src="images/wait.gif"/>
+</div>
+<div id="content2">
+    <div id="caiDan">
+        <h1 class="h1_1"><a href="domanistudios.html">OUR WORK</a></h1>
+        <h1 class="h1_2"><a href="domanistudios.html">WHO WE ARE</a></h1>
+        <h1 class="h1_3"><a href="domanistudios.html">WHAT WE DO</a></h1>
+        <h1 class="h1_4"><a href="domanistudios.html">OBSERVATIONS</a></h1>
+        <h1 class="h1_5"><a href="domanistudios.html">CAREERS</a></h1>
+        <h1 class="h1_6"><a href="domanistudios.html">GET IN TOUCH</a></h1>
+        <span class="cdSpan"></span>
+        <div class="cdDiv">
+            <h4>stay tuned in:</h4>
+            <ul>
+                <a href="https://www.facebook.com/domanistudios" target="_blank"><li class="icon_facebook"></li></a>
+                <a href="https://twitter.com/domanistudios" target="_blank"><li class="icon_twitter"></li></a>
+                <a href="https://www.linkedin.com/company/domani-studios" target="_blank"><li class="icon_linkedin"></li></a>
+                <a href="http://instagram.com/domanistudios" target="_blank"><li class="icon_instagram"></li></a>
+            </ul>
+        </div>
+    </div>
+    <div id="nav" style="width: 0px;">
+    </div><!--nav,可以隐藏-->
+    <div id="banaer">
+        <div id="circleArrow" onmouseover="arrowDown()" onmouseout="arrowup()" onclick="scrollScreem()">
+            <i>&#xe64a;</i>
+        </div>
+        <div id="demoLogo"><a id="Logo" href="domanistudios.html"></a></div> <!--DOMANI  LOGo-->
+        <div id="hmBug" onclick="tanChuCaiDan()" onmouseover="hamburgerOver()" onmouseout="humburgerOut()">
+            <div class="line one"></div>
+            <div class="line two"></div>
+            <div class="line three"></div>
+        </div><!--nav  三根横线框框-->
+        <div id="close" onclick="closer()">
+            <div></div>
+            <div></div>
+        </div>
+        <div id="donghuaT1" style="left: 0px;">
+            <img src="images/banner01_02.jpg"/>
+        </div>
+        <div id="banaerT1">
+            <h2>SCRIBNERPUBLISHIN</h2>
+            <h1>STEPHEN KING<br>SHINES ON.</h1>
+            <div id="yd_1">
+                <div id="yd1_1" onclick="boFang(1)" ></div>
+                <div id="yd1_2" onclick="boFang(2)" ></div>
+                <div id="yd1_3" onclick="boFang(3)" ></div>
+            </div>
+        </div>
+        <div id="donghuaT2" style="left: 1349px;">
+            <video width="1349px" loop="loop" autoplay="autoplay">
+                <source src="media/home_neaq.webm" type="video/webm"/>
+            </video>
+        </div>
+        <div id="banaerT2">
+            <h2>NEWENGLANDAQUARIUM</h2>
+            <h1>A WORLD<br>BELOWTHE<br>SURFACE.</h1>
+            <div id="yd_2">
+                <div id="yd2_1" onclick="boFang(1)"></div>
+                <div id="yd2_2" onclick="boFang(2)"></div>
+                <div id="yd2_3" onclick="boFang(3)"></div>
+            </div>
+        </div>
+        <div id="donghuaT3" style="left: 1349px;">
+            <video width="1349px" loop="loop" autoplay="autoplay">
+                <source src="media/CK2_DS_Feat_Water.webm" type="video/webm"/>
+            </video>
+        </div>
+        <div id="banaerT3">
+            <h2>ORIBE</h2>
+            <h1>STYLE.<br> LUXURY.<br> BEAUTY.</h1>
+            <div id="yd_3">
+                <div id="yd3_1" onclick="boFang(1)"></div>
+                <div id="yd3_2" onclick="boFang(2)"></div>
+                <div id="yd3_3" onclick="boFang(3)"></div>
+            </div>
+        </div>
+    </div><!--banaer-->
+    <div id="Imagination">
+        <span><img src="images/squiggle.gif"/> </span>
+        <h1>IMAGINATION TO APPLICATION</h1>
+        <P>From empowering challenger brands to think big to helping global brands feel closer to home, we leverage technology to bring people closer to the products, content, and experiences they love.</P>
+    </div>
+    <div id="grid"><!--列表图框开始-->
+        <div id="grid_left"><!--左列表图框开始-->
+            <div id="grid1" title="The New England Aquarium&nbsp;" onmouseover="gd1Over()" onmouseout="gd1Out()"><img class="imgMoveUp1" src="images/work-thumb-l-neaq_01.jpg"/>
+                <div id="grid1_div">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div id="grid2">
+                <div class="imgMoveUp2" id="LookingFor" onmouseover="rotate1()" onmouseout="rotate2()">
+                    <h6>Careers</h6>
+                    <h5>Looking for a new gig? <br><br> Take a peek at what we've got open.</h5>
+                    <div id="LookingFor_div">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div id="grid3">
+                <div id="grid_left_right_top" title="R+Co: A Brand is Born&nbsp;" onmouseover="glrtOver()" onmouseout="glrtOut()">
+                    <img class="imgMoveUp2" src="images/work-thumb_rco_ret_02.jpg"/>
+                    <div id="grid_left_right_top_div">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div id="grid_left_right_bottom" title="Meredith Publishing&nbsp;" onmouseover="glrbOver()" onmouseout="glrbOut()">
+                    <img class="imgMoveUp3" src="images/THUMB_mer_02.jpg"/>
+                    <div id="grid_left_right_bottom_div">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div><!--左列表图框结束-->
+        <div id="grid_right"><!--左列表图框开始-->
+            <div id="grid_right_1" title="GC Watches: Global&nbsp;" onmouseover="gr1Over()" onmouseout="gr1Out()">
+                <img class="imgMoveUp1" src="images/THUMB_GC_Ret_3_02.jpg"/>
+                <div id="grid_right_1_div">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="imgMoveUp1" id="grid_right_2" onmouseover="rotate_right2_1()" onmouseout="rotate_right2_2()" >
+                <h6>Trends</h6>
+                <h5>From Canvas to Screen</h5>
+                <span>Digital Art Goes</span><span> Mainstream.</span>
+                <div id="grid_right_2_div">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div id="grid_right_3" title="Stephen King's Dr. Sleep&nbsp;" onmouseover="gr3Over()" onmouseout="gr3Out()">
+                <div id="grid_right_3_div">
+                    <div></div>
+                    <div></div>
+                </div>
+                <img class="imgMoveUp2" src="images/THUMB_DrSleep_ret_02.jpg"/>
+            </div>
+            <div id="grid_right_4" title="JFK Library&nbsp;" onmouseover="gr4Over()" onmouseout="gr4Out()">
+                <img class="imgMoveUp2" src="images/THUMB_JFK_Ret_2_02.jpg"/>
+                <div id="grid_right_4_div">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="imgMoveUp3" id="grid_right_5" onmouseover="rotate_right5_1()" onmouseout="rotate_right5_2()" >
+                <h6>Rant</h6>
+                <h5>The 3 Circles Of Concert Hell</h5>
+                <span>More shows and more</span><span> access to music than </span><span>ever. But...</span>
+                <div id="grid_right_5_div">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div><!--左列表图框结束-->
+    </div><!--列表图框结束-->
+    <div id="make_work_play" onmouseover="zzc1()" onmouseout="zzc2()"><!--make work play 开始-->
+        <h3>Make.Work.Play.</h3>
+        <h4>Since 2001</h4>
+        <p> With an award winning 15 year track record, DOMANI has been recognized as one of the top digital agencies in business today.<br>
+            We help brands around the world express themselves and collaboratively connect with their audiences. </p>
+        <i id="myiArrow">&#xe64a;</i>
+        <div id="zzc" onclick="zzchr()"></div>
+    </div><!--make work play 结束-->
+    <div id="footer">
+        <div class="colum_one">
+            <a href="#" class="icon_logo"></a>
+            <ul>
+                <a href="https://www.facebook.com/domanistudios" target="_blank"><li class="icon_facebook"></li></a>
+                <a href="https://twitter.com/domanistudios" target="_blank"><li class="icon_twitter"></li></a>
+                <a href="https://www.linkedin.com/company/domani-studios" target="_blank"><li class="icon_linkedin"></li></a>
+                <a href="http://instagram.com/domanistudios" target="_blank"><li class="icon_instagram"></li></a>
+            </ul>
+            <div class="copyright">© 2016 Domani Studios LLC.</div>
+        </div>
+        <div class="colum_two">
+            <h4>WALK</h4>
+            <div class="colum_two_1">
+                <a href="domanistudios.html" target="_blank">
+                    <p>
+                        32 Avenue of the Americas<br>19th Floor<br>New York, NY 10013<br><u>View on Map</u>
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="colum_three">
+            <h4>TALK</h4>
+            <div class="colum_three_demo1">
+                <div class="NewBiz">New Biz:</div>
+                <a href="domanistudios.html">hello@domanistudios.com</a>
+            </div>
+            <div class="colum_three_demo2">
+                <div class="NewBiz">New Biz:</div>
+                <a href="domanistudios.html">hello@domanistudios.com</a>
+            </div>
+            <div class="colum_three_demo3">
+                <div class="NewBiz">New Biz:</div>
+                <a href="domanistudios.html">workwithus@domanistudios.com</a>
+            </div>
+            <div class="colum_three_demo4">
+                <div class="colum_three_phone">Phone:</div><a href="tel:7187974470">646-744-3501</a>
+                <div class="colum_three_phone">Fax:</div><a href="tel:6107280033">212-242-4112</a>
+            </div>
+        </div>
+        <div class="colum_back">
+            <i onclick="backTop()">&#xe64a;</i>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/js.js"></script>
+</body>
 </html>
