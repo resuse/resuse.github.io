@@ -1,3 +1,7 @@
+body,h1,h2,h3,h4,h5,ul,li,ol{
+    margin: 0px;
+    padding: 0px;
+}
 .demo1{
     width:400px;
     height:400px;
