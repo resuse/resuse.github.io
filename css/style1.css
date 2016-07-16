@@ -39,14 +39,14 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
 
 /*=====================================section1======================================*/
 .section_1{
-    width: 200px;
-    height: 200px;
-    transform: rotate(-45deg) skew(15deg,15deg);
+    width: 150px;
+    height: 150px;
+    transform: rotate(-45deg) skew(20deg,20deg);
     overflow: hidden;
-    margin: 100px auto 0px;
+    margin: 80px auto 0px;
     transition: all .5s linear;
     background-color: #0086b3;
-   
+
 }
 .section_1>img{
      width: 200px;
@@ -55,10 +55,9 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
 
 }
 .strong_1{
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
+    background-color: #9d9d9d;
     display: block;
+    margin: 20px auto 0px;
 }
 .section_Line{
     width: 50%;
@@ -66,7 +65,11 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
     background-color: rgba(0,0,0,0.5);
     margin: 20px auto 0px;
 }
-
-.strong_1:hover{
+.myh4{
+    text-align: center;
+}
+.myh4:hover{
     cursor: pointer;
 }
+
+
