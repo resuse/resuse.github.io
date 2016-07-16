@@ -64,11 +64,15 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    display: inline-block;
+    display: block;
 }
 .section_Line{
     width: 50%;
     height: 2px;
     background-color: rgba(0,0,0,0.5);
     margin: 20px auto 0px;
+}
+
+.strong_1:hover{
+    cursor: pointer;
 }
