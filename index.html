@@ -49,11 +49,18 @@
          <li><a href="#">Link</a></li>
         <li><a href="#">LINK</a> </li>
        </ul>
-     </div><!-- /.navbar-collapse -->
+     </div>
+     <!--/.navbar-collapse -->
    </div><!-- /.container-fluid -->
  </nav>
     <div id="fullpage">
-      <div class="section">第一屏</div>
+      <div class="section">
+          <div class="section_1">
+            <img src="images/IMG_1284.jpg" alt=""/>
+          </div>
+          <strong class="strong_1">生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵。</strong>
+        <div class="section_Line"></div>
+      </div>
       <div class="section">第二屏</div>
       <div class="section">第三屏</div>
       <div class="section">第四屏</div>
@@ -80,7 +87,11 @@
      $(".navMenu").removeClass("active");
      $(this).addClass("active");
    });
-
+setInterval(function(){
+  var sUrl=window.location.hash;
+  sUrl= sUrl.split("#");
+//   console.log(sUrl[1]);
+},500)
  </script>
  </body>
 

@@ -33,4 +33,42 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
     background: url(../images/bg.jpg);
     background-size: cover;
     height: 240px;
+    overflow: hidden;
+}
+
+
+/*=====================================section1======================================*/
+.section_1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 100px auto 0px;
+    transition: all 1s linear;
+}
+.section_1>img{
+     width: 200px;
+     height: 200px;
+    /*transition: all 1s linear;*/
+ }
+/*.section_1>img:hover{
+    transform: scale(1.2);
+    transition: all 1s linear;
+}*/
+
+.section_1:hover{
+    transform: rotateY(180deg);
+    transition: all 1s linear;
+}
+.strong_1{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.section_Line{
+    width: 50%;
+    height: 2px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 20px auto 0px;
 }
