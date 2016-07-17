@@ -12,7 +12,7 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
     margin-left:-200px;
     margin-top:-200px;
     border-radius:50% ;
-    /*background:url("../images/IMG_1284.JPG");*/
+    /*background:url("../images/myImg1.JPG");*/
     background-size: 400px 500px;
 }
 #navZindex{
@@ -45,7 +45,7 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
     border-radius: 50%;
     overflow: hidden;
     margin: 80px auto 40px;
-    background: url('../images/IMG_1284.JPG') center ;
+    background: url('../images/myImg1.JPG') center ;
     background-size: cover;
     transition: all .3s linear;
 }
