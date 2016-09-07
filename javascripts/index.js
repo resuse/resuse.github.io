@@ -32,6 +32,6 @@ $(function () {
 
     $('.section_1_wenzi').css({
         'width'  : windowW+'px',
-        'bottom' :windowH *.1+'px'
+        'bottom' :windowH *.15+'px'
     })
 })
