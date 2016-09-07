@@ -82,6 +82,24 @@
 <script src="javascripts/jquery.fullpage.min.js"></script>
 <script src="javascripts/bootstrap.min.js"></script>
 <script src="javascripts/index.js"></script>
+<script src="javascripts/canvas-particle.js"></script>
+<script>
+    window.onload = function(){
+        var config = {
+            vx: 4,
+            vy:  4,
+            height: 2,
+            width: 2,
+            count: 100,
+            color: "121, 162, 185",
+            stroke: "100,200,180",
+            dist: 6000,
+            e_dist: 20000,
+            max_conn: 10
+        }
+        CanvasParticle(config);
+    }
+</script>
 </body>
 
 </html>
