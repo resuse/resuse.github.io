@@ -20,11 +20,11 @@ $(function () {
     });
 
     /*判断当前屏幕在第几页*/
-   // setInterval(function () {
-   //     var sUrl = window.location.hash;
-   //     sUrl = sUrl.split("#");
-   //console.log(sUrl[1]);
-   // }, 500);
+    setInterval(function () {
+        var sUrl = window.location.hash;
+        sUrl = sUrl.split("#");
+ //  console.log(sUrl[1]);
+    }, 500);
 
     /*获取第一屏下面的文字位置*/
     var windowH = $(document).height();
