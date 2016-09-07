@@ -21,7 +21,7 @@ var o = {
         r.customAttributes.arc = function (value, color, rad) {
             var v = 3.6 * value,
                 alpha = v == 360 ? 359.99 : v,
-                random = o.random(91, 240),
+                random = o.random(180, 180),  /*从180 -  180  随机开始画*/
                 a = (random - alpha) * Math.PI / 180,
                 b = random * Math.PI / 180,
                 sx = 300 + rad * Math.cos(b),
