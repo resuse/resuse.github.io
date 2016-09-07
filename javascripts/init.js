@@ -8,7 +8,7 @@ var o = {
 	diagram: function(){
 		var r = Raphael('diagram', 600, 600),
 			rad = 73,
-			defaultText = 'Skills',
+			defaultText = '技能',
 			speed = 250;
 		
 		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#193340' });
@@ -38,8 +38,8 @@ var o = {
 				value = t.find('.percent').val(),
 				text = t.find('.text').text();
 			
-			rad += 30;	
-			var z = r.path().attr({ arc: [value, color, rad], 'stroke-width': 26 });
+			rad += 24;   /*stroke-width+ 4（间隙）*/
+			var z = r.path().attr({ arc: [value, color, rad], 'stroke-width': 20 });  /*stroke-width  默认圆圈宽度*/
 			
 			z.mouseover(function(){
                 this.animate({ 'stroke-width': 50, opacity: .75 }, 1000, 'elastic');
@@ -49,7 +49,7 @@ var o = {
 					this.attr({ text: text + '\n' + value + '%' }).animate({ opacity: 1 }, speed, '<');
 				});
             }).mouseout(function(){
-				this.stop().animate({ 'stroke-width': 26, opacity: 1 }, speed*4, 'elastic');
+				this.stop().animate({ 'stroke-width': 20, opacity: 1 }, speed*4, 'elastic');
 				title.stop().animate({ opacity: 0 }, speed, '>', function(){
 					title.attr({ text: defaultText }).animate({ opacity: 1 }, speed, '<');
 				});	
