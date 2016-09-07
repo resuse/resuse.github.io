@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style1.css"/>
     <link rel="stylesheet" href="css/jquery.fullPage.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!--圆形css-->
+    <link rel="stylesheet" href="css/default.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -73,7 +75,61 @@
     </div>
     <div class="section">2</div>
     <div class="section">3</div>
-    <div class="section">4</div>
+    <div class="section">
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <div id="content">
+            <div class="legend">
+                <h1>Legend:</h1>
+                <div class="skills">
+                    <ul>
+                        <li class="jq">JavaScript</li>
+                        <li class="css">CSS3</li>
+                        <li class="html">HTML5</li>
+                        <li class="php">mui</li>
+                        <li class="sql">MySQL</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="diagram"></div>
+        </div>
+
+        <div class="footer">
+            <div class="inside">
+
+            </div>
+        </div>
+
+        <div class="get">
+            <div class="arc">
+                <span class="text">JavaScript</span>
+                <input type="hidden" class="percent" value="95" />
+                <input type="hidden" class="color" value="#97BE0D" />
+            </div>
+            <div class="arc">
+                <span class="text">CSS3</span>
+                <input type="hidden" class="percent" value="90" />
+                <input type="hidden" class="color" value="#D84F5F" />
+            </div>
+            <div class="arc">
+                <span class="text">HTML5</span>
+                <input type="hidden" class="percent" value="80" />
+                <input type="hidden" class="color" value="#88B8E6" />
+            </div>
+            <div class="arc">
+                <span class="text">mui</span>
+                <input type="hidden" class="percent" value="53" />
+                <input type="hidden" class="color" value="#BEDBE9" />
+            </div>
+            <div class="arc">
+                <span class="text">MySQL</span>
+                <input type="hidden" class="percent" value="45" />
+                <input type="hidden" class="color" value="#EDEBEE" />
+            </div>
+        </div>
+    </div>
     <div class="section">5</div>
 </div>
 
@@ -82,7 +138,11 @@
 <script src="javascripts/jquery.fullpage.min.js"></script>
 <script src="javascripts/bootstrap.min.js"></script>
 <script src="javascripts/index.js"></script>
+<!--背景js-->
 <script src="javascripts/canvas-particle.js"></script>
+<!--圆形js-->
+<script type="text/javascript" src="javascripts/init.js"></script>
+<script type="text/javascript " src="javascripts/raphael.js"></script>
 <script>
     /*背景粒子效应*/
     window.onload = function(){
@@ -97,7 +157,7 @@
             dist: 6000,
             e_dist: 20000,
             max_conn: 10
-        }
+        };
         CanvasParticle(config);
     }
 </script>
