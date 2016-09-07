@@ -1,7 +1,7 @@
 body,h1,h2,h3,h4,h5,ul,li,ol{
     margin: 0px;
     padding: 0px;
-    font-family: "Î¢ÈíÑÅºÚ"
+    font-family: "Î¢ï¿½ï¿½ï¿½Åºï¿½"
 }
 .demo1{
     width:400px;
@@ -33,8 +33,9 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
 .section{
     background: url(../images/bg.jpg);
     background-size: cover;
-    height: 240px;
+
     overflow: hidden;
+    position: absolute;
 }
 
 
@@ -73,5 +74,9 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
 .mya:hover{
     text-decoration: none;
 }
+.section_1_wenzi{
+    position: absolute;
+}
+
 
 

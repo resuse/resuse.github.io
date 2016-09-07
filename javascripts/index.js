@@ -23,8 +23,11 @@ $(function () {
     }, 500)
 
     /*获取第一屏下面的文字位置*/
-    var windowH = $(window).height();
+    var windowH = $(document).height();
+    var windowW = $(document).width();
+
     $('.section_1_wenzi').css({
-        'margin-top' :windowH *.3+'px'
+        'width'  : windowW+'px',
+        'bottom' :windowH *.1+'px'
     })
 })
