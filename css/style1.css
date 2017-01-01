@@ -1,25 +1,28 @@
-body,h1,h2,h3,h4,h5,ul,li,ol{
+body, h1, h2, h3, h4, h5, ul, li, ol {
     margin: 0px;
     padding: 0px;
     font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
 }
-.demo1{
-    width:400px;
-    height:400px;
-    position:absolute;
-    left:50%;
-    top:50%;
-    margin-left:-200px;
-    margin-top:-200px;
-    border-radius:50% ;
+
+.demo1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    border-radius: 50%;
     /*background:url("../images/myImg1.JPG");*/
     background-size: 400px 500px;
 }
-#navZindex{
+
+#navZindex {
     z-index: 9999;
     margin-bottom: 0px;
 }
-.logo{
+
+.logo {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -27,54 +30,60 @@ body,h1,h2,h3,h4,h5,ul,li,ol{
     background: url("../images/favicon.ico") center no-repeat;
     background-size: 40px 40px;
 }
-.logoPadding{
-    padding: 0px 15px 0px 15px  !important;
+
+.logoPadding {
+    padding: 0px 15px 0px 15px !important;
 }
-.section{
+
+.section {
     background: url(../images/bg.jpg);
     background-size: cover;
-
     overflow: hidden;
     position: absolute;
 }
 
-
 /*=====================================section1======================================*/
-.section_1{
+.section_1 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
     margin: 80px auto 40px;
-    background: url('../images/myImg1.jpg') center ;
+    background: url('../images/img1.GIF') center;
     background-size: cover;
     transition: all .3s linear;
 }
-.section_1:hover{
-    box-shadow: 3px 3px 3px #7fa1d1 ,-3px 3px 3px #7fa1d1,3px -3px 3px #7fa1d1,-3px -3px 3px #7fa1d1;
+
+.section_1:hover {
+    box-shadow: 3px 3px 3px #7fa1d1, -3px 3px 3px #7fa1d1, 3px -3px 3px #7fa1d1, -3px -3px 3px #7fa1d1;
     transition: all .3s linear;
 }
-.myLine{
+
+.myLine {
     width: 50%;
     height: 2px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     margin: 20px auto 20px;
 }
-.myh4{
+
+.myh4 {
     display: block;
     text-align: center;
     margin-top: 10px;
 }
-.mya{
+
+.mya {
     display: block;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0px;
 }
-.mya:hover{
+
+.mya:hover {
     text-decoration: none;
 }
-.section_1_wenzi{
+
+.section_1_wenzi {
     position: absolute;
 }
 
