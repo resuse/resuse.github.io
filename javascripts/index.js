@@ -9,7 +9,7 @@ $(function () {
         anchors: ['page1', 'page2', 'page3', 'page4','page5'], /*定义锚链接*/
         'navigation': true, /*是否显示项目导航*/
         'navigationPosition': 'right', /*项目导航的位置，可选 left 或 right*/
-        'navigationTooltips': ['HOME', 'about', 'help', 'connect','page5'], /*项目导航的 tip*/
+       // 'navigationTooltips': ['HOME', 'about', 'help', 'connect','page5'], /*项目导航的 tip*/
         loopBottom: true, /*滚动到最底部后是否滚回顶部*/
         loopTop: false   /*滚动到最顶部后是否滚底部*/
     });
